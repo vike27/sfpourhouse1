@@ -1,0 +1,314 @@
+@import "bootstrap";
+
+/*------ Google font imports -----*/
+@import url(http://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300);
+
+
+
+/*------------layout-----------------*/
+
+.alert {
+	margin-top: 60px;
+	margin-bottom: 0px;
+}
+
+/*----header-----*/
+
+
+.navbar {
+	margin: 0px;
+	border-bottom: 0px;
+}
+
+.navbar-inverse {
+	background-color: #8a3a3a;
+}
+.navbar-inverse .navbar-header .navbar-brand {
+  color: white;
+  padding-left: 25px;
+  padding-top: 10px;
+  font-size: 36px;
+  font-family: 'Lobster', cursive;
+}
+
+.navbar-container-right .navbar-right > li > a {
+	color: white;
+}
+
+.navbar-container-right .navbar-right > li > a:hover {
+	color: black;
+}
+
+.container-fluid {
+	padding-top: 10px;
+}
+
+
+/*---- footer ------*/
+
+.footer {
+	background-color: #8a3a3a;
+	padding-top: 26px;
+	padding-bottom: 30px;
+}
+
+.bottom-container {
+	margin-left: auto;
+    margin-right: auto;
+	text-align:center;
+}
+
+.email-block {
+	margin-top: 25px;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+}
+
+.footer-img {
+	padding-left: 15px;
+	padding-right: 15px;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out; 
+    border-radius: 50%;
+}
+
+.bottom {
+  color: white;
+  padding-top: 20px;
+  font-size: 36px;
+  font-family: 'Lobster', cursive;
+}
+
+
+/*---------------Landing---------------------*/
+
+/*----banner----*/
+
+.banner{
+    background-image: image-url('winebar.jpg');
+    height: 523px;
+	margin-top: 0px;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+.banner-content {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif; 
+	padding-top: 150px;
+	padding-bottom: 150px;
+	color: white;
+	font-weight: bold;
+}
+
+.logo {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.opening-text {
+	padding-top: 45px;
+	font-size: 35px;
+	text-shadow: 1px 1px 1px #666666;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.opening-text-name {
+	font-size: 46px;
+  	font-family: 'Lobster', cursive;
+  	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sub-opening-text {
+	font-size: 25px;
+	text-shadow: 1px 1px 1px #666666;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+/*---- features ------*/
+
+
+.big-container {
+	background-color: #8a3a3a;
+}
+
+.mid-text-container {
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 0px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 12px;
+}
+
+.media-img{   
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out; 
+    border-radius: 50%; 
+    padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+.media-img:hover{
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+}
+
+
+.service-box {
+    text-align:center;
+    padding-bottom: 0px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 12px;
+}
+
+.service-box h2 {
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-size: 17px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-top: 0px;
+}
+
+.service-box h1 {
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+}
+
+.service-box p {
+	font-size: 15px;
+	color: white;
+}
+
+
+
+
+
+/*---- Image break ----*/
+
+.image-break{
+    background-image: image-url('sf2.jpg');
+    height: 310px;
+    background-attachment:fixed;
+    background-size:cover;
+    color: white;
+  	padding-top: 70px;
+  	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #666666;
+}
+
+
+
+
+/*---- subscription box --------*/
+
+
+.subscription-section {
+	background-color: #46c7b0;
+	padding-bottom: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+}
+
+.container-form-image {
+	text-align: center !important;
+	vertical-align: middle;
+}
+
+.subscription-img{   
+	margin: 0 auto;
+}
+
+.form-subscribe {
+	width: 45%;
+	margin: 0 auto;
+}
+
+.newsletter-form-content {
+	color: #ffffff;
+	text-align: center !important;
+}
+
+.form-control {
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+
+
+
+
+
+/*---- example boxes --------*/
+
+.big-container-example {
+	background-color: white;
+}
+
+.mid-text-container-example {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.glyphicon{   
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out; 
+    border-radius: 50%; 
+    padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+.glyphicon:hover{
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+}
+
+
+.example-box {
+    text-align:center;
+    padding-bottom: 70px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+}
+
+.example-box h2 {
+	padding-top: 10px;
+	font-size: 28px;
+}
+
+.example-box h3 {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 24px;
+}
+
+
+.glyphicon {
+	font-size: 120px;
+	color: #46c7b0;
+}
+
+/*-- beta submission --*/
+
+
