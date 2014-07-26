@@ -91,7 +91,7 @@
 /*----banner----*/
 
 .banner{
-    background-image: image-url('winebar.jpg');
+    background-image: image-url('Pourhousepicture1new2.png');
     height: 523px;
 	margin-top: 0px;
     background-attachment:fixed;
@@ -199,25 +199,6 @@
 
 
 
-
-/*---- Image break ----*/
-
-.image-break{
-    background-image: image-url('sf2.jpg');
-    height: 310px;
-    background-attachment:fixed;
-    background-size:cover;
-    color: white;
-  	padding-top: 70px;
-  	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 25px;
-	font-weight: bold;
-	text-shadow: 1px 1px 1px #666666;
-}
-
-
-
-
 /*---- subscription box --------*/
 
 
@@ -255,64 +236,5 @@
 
 
 
-
-
-/*---- example boxes --------*/
-
-.big-container-example {
-	background-color: white;
-}
-
-.mid-text-container-example {
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 50px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.glyphicon{   
-    -webkit-transition: -webkit-transform .8s ease-in-out;
-    -ms-transition: -ms-transform .8s ease-in-out;
-    transition: transform .8s ease-in-out; 
-    border-radius: 50%; 
-    padding-left: 15px;
-	padding-right: 15px;
-}
-
-
-.glyphicon:hover{
-    transform:rotate(360deg);
-    -ms-transform:rotate(360deg);
-    -webkit-transform:rotate(360deg);
-}
-
-
-.example-box {
-    text-align:center;
-    padding-bottom: 70px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 18px;
-}
-
-.example-box h2 {
-	padding-top: 10px;
-	font-size: 28px;
-}
-
-.example-box h3 {
-	padding-left: 20px;
-	padding-right: 20px;
-	font-size: 24px;
-}
-
-
-.glyphicon {
-	font-size: 120px;
-	color: #46c7b0;
-}
-
-/*-- beta submission --*/
 
 
