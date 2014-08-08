@@ -10,11 +10,11 @@ module Sfpourhouse1
   class Application < Rails::Application
 
     config.action_mailer.smtp_settings = {
-      :address              => "smtp.gmail.com",
+      :address              => "box347.bluehost.com",
       :port                 => 587,
-      :domain               => "gmail.com",
-      :user_name            => "norisjavier@gmail.com",
-      :password             => "fonseca27",
+      :domain               => "sfpourhouse.com",
+      :user_name            => "events@sfpourhouse.com",
+      :password             => "events123!",
       :authentication       => :plain,
       :enable_starttls_auto => true
     }
