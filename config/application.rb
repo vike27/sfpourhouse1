@@ -8,6 +8,20 @@ Bundler.require(*Rails.groups)
 
 module Sfpourhouse1
   class Application < Rails::Application
+
+    config.action_mailer.smtp_settings = {
+      :address              => "smtp.gmail.com",
+      :port                 => 587,
+      :domain               => "gmail.com",
+      :user_name            => "norisjavier@gmail.com",
+      :password             => "fonseca27",
+      :authentication       => :plain,
+      :enable_starttls_auto => true
+    }
+
+    config.action_mailer.default_url_options = {
+      :host => "www.sfpourhouse.com"
+    }
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
