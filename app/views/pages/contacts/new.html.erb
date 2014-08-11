@@ -1,16 +1,45 @@
 <div align="center">
   <h3>Send A message to Us</h3>
 
-  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
-    <%= f.input :name, :required => true %>
-    <%= f.input :email, :required => true %>
-    <%= f.input :message, :as => :text, :required => true %>
-    <div class= "hidden">
-      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
-    </div>
-    <div>
-      </br>
-      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+  <%= form_for @contact, :html => { :role => 'form', :class => 'form-horizontal' } do |f| %>
+
+    <div class="form-inputs">
+lsdkfjdslkajdksanfsdjkafnsdjkaf
+      <div class= "form-group">
+        <%= f.text_field :name, :required => true,  class: "form-control" %>
+      </div>
+      <div class= "form-group">
+        <%= f.text_field :email, :required => true,  class: "form-control" %>
+      </div>
+      <div class= "form-group">
+        <%= f.text_field :message, :as => :text, :required => true, class: "form-control" %>
+      </div>
+      <div class="form-actions">
+          <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+      </div>
+
     </div>
   <% end %>
 </div>  
+
+<form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
